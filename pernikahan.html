@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan - Ardiansyah Putra & Nurul Khotimah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .bg-hero {
+            /* GANTI URL DI BAWAH INI DENGAN LINK FOTO PRE-WEDDING ANDA */
+            background-image: url(https://i.ibb.co.com/Z17Ntbwh/Gambar-Whats-App-2025-10-07-pukul-12-36-05-c759fbd5.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .section-animate {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .section-animate.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .flower-divider {
+            height: 50px;
+            background-image: url('https://api.iconify.design/mdi/flower-tulip-outline.svg?color=%23a68069');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body class="bg-[#fdfbf9] text-[#4a4a4a] antialiased">
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-hero h-screen flex flex-col justify-center items-center text-white text-center p-4 relative">
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="relative z-10">
+            <p class="text-lg tracking-widest uppercase mb-2">Undangan Pernikahan</p>
+            <h1 class="font-serif text-6xl md:text-8xl mb-4">Ardiansyah Putra</h1>
+            <h1 class="font-serif text-3xl md:text-4xl mb-4">&</h1>
+            <h1 class="font-serif text-6xl md:text-8xl mb-6">Nurul Khotimah</h1>
+            <div id="countdown" class="text-2xl font-light tracking-widest flex justify-center space-x-4">
+                <div><span id="days">00</span><br>Hari</div>
+                <div><span id="hours">00</span><br>Jam</div>
+                <div><span id="minutes">00</span><br>Menit</div>
+                <div><span id="seconds">00</span><br>Detik</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="max-w-4xl mx-auto p-6 md:p-12">
+
+        <!-- Opening -->
+        <section class="text-center my-16 section-animate">
+            <div class="flower-divider mb-6"></div>
+            <p class="italic text-lg mb-4">"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang."</p>
+            <p class="font-semibold">(QS. Ar-Rum: 21)</p>
+        </section>
+
+        <!-- Groom & Bride -->
+        <section class="text-center my-20 section-animate">
+            <h2 class="font-serif text-4xl mb-12 text-[#a68069]">Kedua Mempelai</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-12">
+                <!-- Groom -->
+                <div class="w-full md:w-1/2 flex flex-col items-center">
+                    <!-- GANTI SRC DI BAWAH INI DENGAN LINK FOTO PENGANTIN PRIA -->
+                    <img src="https://i.ibb.co.com/chkzYDm4/Gambar-Whats-App-2025-10-07-pukul-12-33-45-7bc7f869.jpg" alt="Foto Pengantin Pria" class="rounded-full w-40 h-40 object-cover mb-4 border-4 border-[#e2d5c1]">
+                    <h3 class="font-serif text-3xl text-[#a68069]">Ardiansyah Putra</h3>
+                    <p class="mt-2">Putra dari Bapak Ardi & Ibu Ardi</p>
+                </div>
+                 <!-- Bride -->
+                <div class="w-full md:w-1/2 flex flex-col items-center">
+                    <!-- GANTI SRC DI BAWAH INI DENGAN LINK FOTO PENGANTIN WANITA -->
+                    <img src="https://i.ibb.co.com/Gv4CW5Mj/Gambar-Whats-App-2025-10-07-pukul-12-32-39-64959e9f.jpg" alt="Foto Pengantin Wanita" class="rounded-full w-40 h-40 object-cover mb-4 border-4 border-[#e2d5c1]">
+                    <h3 class="font-serif text-3xl text-[#a68069]">Nurul Khotimah</h3>
+                    <p class="mt-2">Putri dari Bapak Nurul & Ibu Nurul</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="flower-divider my-16"></div>
+
+        <!-- Event Details -->
+        <section class="my-20 section-animate">
+            <h2 class="font-serif text-4xl text-center mb-12 text-[#a68069]">Detail Acara</h2>
+            <div class="flex flex-col md:flex-row gap-8">
+                <!-- Akad Nikah -->
+                <div class="w-full md:w-1/2 bg-white p-8 rounded-lg shadow-lg text-center border-t-4 border-[#a68069]">
+                    <h3 class="font-serif text-3xl mb-4">Akad Nikah</h3>
+                    <p class="font-semibold text-lg">Jumat, 19 November 2027</p>
+                    <p class="text-lg">08.00 WIB - selesai</p>
+                    <div class="my-4 border-b w-1/4 mx-auto"></div>
+                    <p class="font-semibold">Lokasi:</p>
+                    <p>Apartemen Pribadi Milik Ardi</p>
+                    <p>Jl. Gatot Subroto, Jakarta</p>
+                    <a href="[Link Google Maps Akad]" target="_blank" class="inline-block bg-[#a68069] text-white px-6 py-2 rounded-full mt-6 hover:bg-[#8e6b57] transition duration-300">Lihat Peta</a>
+                </div>
+                <!-- Resepsi -->
+                <div class="w-full md:w-1/2 bg-white p-8 rounded-lg shadow-lg text-center border-t-4 border-[#a68069]">
+                    <h3 class="font-serif text-3xl mb-4">Resepsi</h3>
+                    <p class="font-semibold text-lg">Minggu, 21 November 2027</p>
+                    <p class="text-lg">08.00 WIB - selesai</p>
+                    <div class="my-4 border-b w-1/4 mx-auto"></div>
+                    <p class="font-semibold">Lokasi:</p>
+                    <p>Apartemen Pribadi Milik Ardi</p>
+                    <p>Jl. Gatot Subroto, Jakarta</p>
+                    <a href="[Link Google Maps Resepsi]" target="_blank" class="inline-block bg-[#a68069] text-white px-6 py-2 rounded-full mt-6 hover:bg-[#8e6b57] transition duration-300">Lihat Peta</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Wedding Gift -->
+        <section class="text-center my-20 section-animate">
+            <h2 class="font-serif text-4xl mb-6 text-[#a68069]">Hadiah Pernikahan</h2>
+            <p class="max-w-2xl mx-auto mb-8">Doa restu Anda merupakan karunia yang sangat berarti bagi kami. Namun, jika Anda ingin memberikan tanda kasih, kami dengan senang hati menerimanya melalui tautan di bawah ini.</p>
+            <button id="giftButton" class="bg-[#a68069] text-white px-8 py-3 rounded-full hover:bg-[#8e6b57] transition duration-300">Kirim Hadiah</button>
+            <div id="giftDetails" class="hidden mt-6 max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg">
+                <p class="font-semibold mb-2">Transfer Bank:</p>
+                <p>SEABANK - 0123456789</p>
+                <p>a.n. Ardiansyah Putra</p>
+                <hr class="my-4">
+                <p class="font-semibold mb-2">E-Wallet:</p>
+                <p>DANA - 081251264485</p>
+                <p>a.n. Ardiansyah Putra</p>
+            </div>
+        </section>
+
+        <!-- Closing -->
+        <section class="text-center my-20 section-animate">
+            <div class="flower-divider mb-6"></div>
+            <p class="text-lg mb-4">Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kedua mempelai.</p>
+            <p class="font-serif text-3xl mt-8 text-[#a68069]">Terima Kasih</p>
+            <p class="font-serif text-4xl mt-4">Ardiansyah Putra & Nurul Khotimah</p>
+        </section>
+
+    </div>
+
+    <footer class="text-center text-sm text-gray-500 py-6">
+        Dibuat oleh Ardiansyah Putra
+    </footer>
+
+    <script>
+        // Set tanggal pernikahan di sini (Tahun, Bulan-1, Tanggal)
+        const weddingDate = new Date("2025-12-20T10:00:00").getTime();
+
+        const countdownFunction = setInterval(function() {
+            const now = new Date().getTime();
+            const distance = weddingDate - now;
+
+            if (distance < 0) {
+                clearInterval(countdownFunction);
+                document.getElementById("countdown").innerHTML = "ACARA TELAH SELESAI";
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerText = String(days).padStart(2, '0');
+            document.getElementById("hours").innerText = String(hours).padStart(2, '0');
+            document.getElementById("minutes").innerText = String(minutes).padStart(2, '0');
+            document.getElementById("seconds").innerText = String(seconds).padStart(2, '0');
+
+        }, 1000);
+
+        // Animasi saat scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.section-animate').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Tombol hadiah
+        const giftButton = document.getElementById('giftButton');
+        const giftDetails = document.getElementById('giftDetails');
+
+        giftButton.addEventListener('click', () => {
+            giftDetails.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
+
